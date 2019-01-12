@@ -1,6 +1,7 @@
 spring:
   application:
     name: application
-management:
-  security:
-    enabled: false
+endpoints:
+  env:
+    sensitive: false
+
