@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    config:
+      profile: prod
+      label: master
+      uri: http://127.0.0.1:8081/
+      name: config
+      # 服务端配置使用了security认证
+      username: admin
+      password: admin
+      # 开启失败快速响应
+      fail-fast: true

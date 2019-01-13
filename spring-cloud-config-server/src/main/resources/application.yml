@@ -1,0 +1,22 @@
+server:
+  port: 8081
+
+# 基于文件系统实现config
+spring:
+  application:
+    name: config-server
+  #profiles:
+    #active: native #设置为本地模式 而不是使用git
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/qianjiangtao/spring-cloud-config.git
+          search-paths: config-test
+        #native:
+          #search-locations: classpath:/config
+# security config
+security:
+  user:
+    name: admin
+    password: admin
