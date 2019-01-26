@@ -1,0 +1,16 @@
+server:
+  port: 8084
+eureka:
+  instance:
+    hostname: peer-02
+    prefer-ip-address: true
+  client:
+    # 作为注册中心不向注册中心注册自己
+    # register-with-eureka: false
+    # 注册中心不需要检索服务
+    # fetch-registry: false
+    serviceUrl:
+      defaultZone: http://peer-01:8083/eureka/
+spring:
+  application:
+    name: eureka-server-02

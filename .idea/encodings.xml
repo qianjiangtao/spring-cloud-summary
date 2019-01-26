@@ -6,5 +6,8 @@
     <file url="file://$PROJECT_DIR$/spring-cloud-config-client" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-config-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-config-server/src/main/resources/application.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-eureka-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-eureka-server-01" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-cloud-eureka-server-02" charset="UTF-8" />
   </component>
 </project>

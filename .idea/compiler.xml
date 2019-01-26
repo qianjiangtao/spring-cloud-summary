@@ -25,6 +25,10 @@
         <module name="my-spring-cloud-bootstrap" />
         <module name="spring-cloud-config-client" />
         <module name="spring-cloud-config-server" />
+        <module name="spring-cloud-eureka-client" />
+        <module name="spring-cloud-eureka-server-01" />
+        <module name="spring-cloud-eureka-server-02" />
+        <module name="spring-cloud-eureke-server-01" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -32,6 +36,10 @@
       <module name="my-spring-cloud-config-server" target="1.8" />
       <module name="spring-cloud-config-client" target="1.8" />
       <module name="spring-cloud-config-server" target="1.8" />
+      <module name="spring-cloud-eureka-client" target="1.8" />
+      <module name="spring-cloud-eureka-server-01" target="1.8" />
+      <module name="spring-cloud-eureka-server-02" target="1.8" />
+      <module name="spring-cloud-eureke-server-01" target="1.8" />
       <module name="spring-cloud-summary" target="1.8" />
     </bytecodeTargetLevel>
   </component>

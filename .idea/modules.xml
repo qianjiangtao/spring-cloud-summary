@@ -5,6 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/my-spring-cloud-bootstrap/my-spring-cloud-bootstrap.iml" filepath="$PROJECT_DIR$/my-spring-cloud-bootstrap/my-spring-cloud-bootstrap.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-config-client/spring-cloud-config-client.iml" filepath="$PROJECT_DIR$/spring-cloud-config-client/spring-cloud-config-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-config-server/spring-cloud-config-server.iml" filepath="$PROJECT_DIR$/spring-cloud-config-server/spring-cloud-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-client/spring-cloud-eureka-client.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-client/spring-cloud-eureka-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-server-01/spring-cloud-eureke-server-01.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-server-01/spring-cloud-eureke-server-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-server-02/spring-cloud-eureka-server-02.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-server-02/spring-cloud-eureka-server-02.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-summary.iml" filepath="$PROJECT_DIR$/spring-cloud-summary.iml" />
     </modules>
   </component>
