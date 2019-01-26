@@ -14,11 +14,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 
     @Autowired
-    private DiscoveryClient client;
+    private DiscoveryClient discoveryClient;
 
     @GetMapping(value = "hello")
     public Object hello() {
-        ServiceInstance instance = client.getLocalServiceInstance();
+        ServiceInstance instance = discoveryClient.getLocalServiceInstance();
         System.out.println("/hello, Host:" + instance.getHost() + " service_id:" + instance.getServiceId());
         return "Hello World";
     }
