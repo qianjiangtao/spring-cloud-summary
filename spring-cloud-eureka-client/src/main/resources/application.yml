@@ -7,3 +7,7 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://peer-01:8083/eureka/,http://peer-02:8084/eureka/
+  instance:
+    instance-id: ${spring.application.name}
+    # 显示ip
+    prefer-ip-address: true
