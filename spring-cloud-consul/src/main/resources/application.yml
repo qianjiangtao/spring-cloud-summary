@@ -1,0 +1,16 @@
+server:
+  port: 9090
+spring:
+  application:
+    name: consul-simple
+  cloud:
+    consul:
+      host: 192.168.207.129
+      port: 8500
+      # 注册到consul注册中心的服务名称
+      discovery:
+        service-name: consul-service
+        # 解决consul默认健康检查 /health检查服务是down,由于默认的health进行了空校验
+        # 参考org.springframework.cloud.consul.ConsulHealthIndicator
+        health-check-path: /checkStatus
+        prefer-ip-address: true
