@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @author Toter
+ * @author Tour Jiang
  * @since 2019-01-13 17:51
  **/
 @RestController
@@ -15,7 +15,7 @@ public class ConfigController {
     private String name;
 
     @GetMapping("/config")
-    public Object config(){
+    public Object config() {
         return name;
     }
 }

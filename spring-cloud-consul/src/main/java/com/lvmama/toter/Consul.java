@@ -8,13 +8,13 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  * <p>
  * <p>
  *
- * @author Toter
+ * @author Tour Jiang
  * @date 2019/1/29
  */
 @SpringBootApplication
 @EnableDiscoveryClient
 public class Consul {
     public static void main(String[] args) {
-        SpringApplication.run(Consul.class,args);
+        SpringApplication.run(Consul.class, args);
     }
 }

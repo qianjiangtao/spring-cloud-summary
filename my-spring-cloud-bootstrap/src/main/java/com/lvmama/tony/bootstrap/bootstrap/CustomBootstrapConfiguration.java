@@ -13,7 +13,7 @@ import java.util.Map;
 /**
  * 自定义引导配置
  *
- * @author Toter
+ * @author Tour Jiang
  * @since 2019-01-12 16:07
  **/
 public class CustomBootstrapConfiguration implements ApplicationContextInitializer {

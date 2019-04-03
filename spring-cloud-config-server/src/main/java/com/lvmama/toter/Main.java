@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.config.server.EnableConfigServer;
 
 /**
- * @author Toter
+ * @author Tour Jiang
  * @since 2019-01-12 18:05
  **/
 @SpringBootApplication

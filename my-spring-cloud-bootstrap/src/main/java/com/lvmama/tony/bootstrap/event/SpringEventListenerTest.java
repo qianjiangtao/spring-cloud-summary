@@ -9,7 +9,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  * <p>
  * <p>
  *
- * @author qianjiangtao
+ * @author Tour Jiang
  * @date 2019/1/8
  */
 public class SpringEventListenerTest {

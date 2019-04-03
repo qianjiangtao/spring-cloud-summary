@@ -6,7 +6,7 @@ import org.springframework.core.env.PropertySource;
 
 /**
  *
- * @author Toter
+ * @author Tour Jiang
  * @since 2019-01-12 16:04
  **/
 public class CustomPropertySource implements PropertySourceLocator{
